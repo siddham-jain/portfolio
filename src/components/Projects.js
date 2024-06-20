@@ -7,7 +7,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import yulu from "../assets/img/yulu.png";
 import aerofit from "../assets/img/aerofit.png";
 import quizapp from "../assets/img/quizapp.png";
-// import DailyDispath from "../assets/img/DailyDispath.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -46,18 +46,18 @@ export const Projects = () => {
 
   const projectsSide = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Image Editor",
+      description: "CLI based image editor with basic functionalities",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "tic-tac-toe",
+      description: "CLI based tic-tac-toe game built using JAVA",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Payment Service Integration",
+      description: "for learning integration of payment service",
       imgUrl: projImg3,
     }
   ];
