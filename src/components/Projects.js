@@ -7,6 +7,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import yulu from "../assets/img/yulu.png";
 import aerofit from "../assets/img/aerofit.png";
 import quizapp from "../assets/img/quizapp.png";
+import imageEditor from "../assets/img/image-editor.png"
+import ticTacToe from "../assets/img/tic-tac-toe.png"
+import payments from "../assets/img/payments.png"
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -48,17 +51,17 @@ export const Projects = () => {
     {
       title: "Image Editor",
       description: "CLI based image editor with basic functionalities",
-      imgUrl: projImg1,
+      imgUrl: imageEditor,
     },
     {
       title: "tic-tac-toe",
       description: "CLI based tic-tac-toe game built using JAVA",
-      imgUrl: projImg2,
+      imgUrl: ticTacToe,
     },
     {
       title: "Payment Service Integration",
       description: "for learning integration of payment service",
-      imgUrl: projImg3,
+      imgUrl: payments,
     }
   ];
 
