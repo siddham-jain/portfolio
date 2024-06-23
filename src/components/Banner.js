@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Batman", "Innovator"];
   const period = 2000;
-
+  // siddham-jain
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
